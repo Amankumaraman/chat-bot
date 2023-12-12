@@ -1,0 +1,9 @@
+# Create a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+
+# Install your project's dependencies
+pip install flask openai  # Add other necessary packages
+
+# Generate the requirements.txt file
+pip freeze > requirements.txt
